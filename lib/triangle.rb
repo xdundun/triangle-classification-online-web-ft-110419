@@ -3,7 +3,7 @@ class Triangle
 
   def initialize(attributes)
     attributes.each {|key,value| self.send(("#{key}="),value) }
-
+    puts attributes
 #    @length1 = length1
   #  @length2 = length2
   #  @length3 = length3

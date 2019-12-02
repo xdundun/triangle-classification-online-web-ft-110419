@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind
-    if @a <= 0 || @b <= 0 || @c <= 0
+    if @a < 1 || @b < 1 || @c < 1
       raise TriangleError
     elsif
 

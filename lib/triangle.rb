@@ -11,10 +11,10 @@ class Triangle
 
   def kind
 
-    if @length1 == @length2 && @length2 == @length3
-      return :equilateral
-    elsif @length1 == @length2 && @length1 != @length3
-    end
+  #  if @length1 == @length2 && @length2 == @length3
+    #  return :equilateral
+    #elsif @length1 == @length2 && @length1 != @length3
+  #  end
   end
 
     class TriangleError < StandardError

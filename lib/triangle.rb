@@ -1,20 +1,17 @@
 class Triangle
-  attr_accessor :length1, :length2, :length3
+  attr_accessor :a, :b, :c
 
-  def initialize(attributes)
-    attributes.each {|key,value| self.send(("#{key}="),value) }
-    puts attributes
-#    @length1 = length1
-  #  @length2 = length2
-  #  @length3 = length3
+  def initialize(a ,b,c)
+    @a = a
+    @b = b
+    @c = c
   end
 
   def kind
-
-  #  if @length1 == @length2 && @length2 == @length3
-    #  return :equilateral
-    #elsif @length1 == @length2 && @length1 != @length3
-  #  end
+    if @length1 == @length2 && @length2 == @length3
+      return :equilateral
+    elsif @length1 == @length2 && @length1 != @length3
+    end
   end
 
     class TriangleError < StandardError

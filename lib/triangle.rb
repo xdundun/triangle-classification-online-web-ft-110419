@@ -12,6 +12,8 @@ class Triangle
       return :equilateral
     elsif @a == @b || @b == @c
       return :isosceles
+    else
+      return :scalene
     end
   end
 

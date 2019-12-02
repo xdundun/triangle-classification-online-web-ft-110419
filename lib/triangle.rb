@@ -4,9 +4,9 @@ class Triangle
   def initialize(attributes)
     attributes.each {|key,value| self.send(("#{key}="),value) }
 
-    @length1 = length1
-    @length2 = length2
-    @length3 = length3
+#    @length1 = length1
+  #  @length2 = length2
+  #  @length3 = length3
   end
 
   def kind
